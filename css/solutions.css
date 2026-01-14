@@ -69,3 +69,25 @@ select:focus {
 .nav-item:first-child {
   background-color: #34495e;
 }
+
+.quote-box::after {
+  content: "\0022";
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 3em;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+.quote-box::before {
+  content: "\0022";
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 3em;
+  font-weight: bold;
+  position: absolute;
+  left: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+}
