@@ -16,3 +16,11 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   transform: translateY(1px);
 }
+
+.workout-plan:nth-child(2) {
+  background-color: #fff8ba;
+  border-left: orange;
+  border-left-width: 5px;
+  border-left-style: solid;
+}
+
