@@ -2,3 +2,12 @@
   content: "🔥";
   font-size: 2em;
 }
+
+.stats-grid:last-child {
+  background-color: #705dbc;
+}
+
+.stats-grid:last-child .stat-number,
+.stats-grid:last-child .stat-label {
+  color: white;
+}
