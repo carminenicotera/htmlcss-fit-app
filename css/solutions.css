@@ -49,3 +49,14 @@ select:focus {
   transform: translateY(2px);
   background-color: blue;
 }
+
+.progress-fill::after {
+  content: "65%";
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
