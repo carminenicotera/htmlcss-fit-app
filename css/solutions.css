@@ -1,6 +1,6 @@
 .stats-grid:first-child::before {
   content: "🔥";
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .stats-grid:last-child {
@@ -30,4 +30,9 @@
   border-left: green;
   border-left-width: 5px;
   border-left-style: solid;
+}
+
+.exercise-item:nth-child(even)::before {
+  content: "⚡";
+  font-size: 1.5em;
 }
