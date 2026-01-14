@@ -24,3 +24,10 @@
   border-left-style: solid;
 }
 
+.exercise-item:first-child,
+.exercise-item:last-child {
+  background-color: #f0fff4;
+  border-left: green;
+  border-left-width: 5px;
+  border-left-style: solid;
+}
