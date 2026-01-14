@@ -43,3 +43,9 @@ select:focus {
   box-shadow: 0px 0px 5px blue;
   outline: none;
 }
+
+.save-btn:hover {
+  box-shadow: 0 8px 20px blue;
+  transform: translateY(2px);
+  background-color: blue;
+}
